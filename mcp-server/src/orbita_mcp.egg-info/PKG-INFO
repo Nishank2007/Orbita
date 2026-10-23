@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: orbita-mcp
+Version: 0.1.0
+Summary: ORBITA Model Context Protocol Server with Streamable HTTP Transport
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: mcp>=2.3.0
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: pydantic>=2.10.0
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: uvicorn>=0.34.0
+Requires-Dist: starlette>=0.45.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.3.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.25.0; extra == "dev"
